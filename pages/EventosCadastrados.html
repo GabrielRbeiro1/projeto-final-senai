@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos cadastrados</title>
+    <link rel="icon" href="../assets/event.png">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/EventosCadastrados.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Eventos Cadastrados</h1>
+        <p>Veja todos os eventos cadastrados, seus detalhes e participantes.</p>
+    </header>
+    <nav class="navbar">
+    
+        <ul class="nav-links">
+            <li><a href="../pages/CadastroEventos.html">Cadastrar Eventos</a></li>
+            <li><a href="../pages/CadastroOrganizador.html">Cadastrar Organizador</a></li>
+            <li><a href="../pages/EventosCadastrados.html">Eventos Cadastrados</a></li>
+        </ul>
+       
+    </nav>
+
+    
+
+    <section class="event-list" id="event-list">
+    </section>
+
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>Detalhes do Evento</h2>
+            <p><strong>Nome:</strong> <span id="modal-nome"></span></p>
+            <p><strong>Data:</strong> <span id="modal-data"></span></p>
+            <p><strong>Local:</strong> <span id="modal-local"></span></p>
+            <p><strong>Descrição:</strong> <span id="modal-descricao"></span></p>
+            <p><strong>Quantidade de Participantes:</strong> <span id="modal-quantidade"></span></p>
+            <h3>Participantes</h3>
+            <ul id="modal-participantes" class="participantes-list"></ul>
+            <button id="delete-event" class="delete-btn">Excluir Evento</button>
+        </div>
+    </div>
+
+    <script src="../js/EventosCadastrados.js"></script>
+</body>
+
+</html>

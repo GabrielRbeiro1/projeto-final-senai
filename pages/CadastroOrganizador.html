@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Organizador</title>
+    <link rel="stylesheet" href="../css/CadastroOrganizador.css">
+    <link rel="icon" href="../assets/event.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+    
+            <ul class="nav-links">
+                <li><a href="../pages/CadastroEventos.html">Cadastrar Eventos</a></li>
+                <li><a href="../pages/CadastroOrganizador.html">Cadastrar Organizador</a></li>
+                <li><a href="../pages/EventosCadastrados.html">Eventos Cadastrados</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+    <main>
+    <div class="container">
+        <form id="cadastro-form">
+            <h2>Cadastrar organizador</h2>
+            <input type="text" name="nome_organizador" id="nome_organizador" placeholder="Nome" required />
+            <input type="email" name="email_organizador" id="email_organizador" placeholder="E-mail" required />
+            <input type="password"  name="senha_organizador" id="senha_organizador" placeholder="Senha" required />
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+    </main>
+    <script src="../js/CadastroOrganizador.js"></script>
+</body>
+</html>

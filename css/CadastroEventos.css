@@ -1,0 +1,182 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #FFFFFF;
+
+
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20px;
+  padding: 20px 50px;
+  background-color:#4c4ba3;;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .logo a {
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f1f1f1;
+}
+main{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.container{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container h1{
+ color:  #403866;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 30px;
+ padding: 15px;
+}
+
+.container .form-group{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 15px;
+  
+}
+
+.container input{
+  width: 360px;
+ height: 60px;
+ background-color: #E6E6E6;
+ border: 2px solid #ccc;
+ border-radius: 5px;
+ padding-left: 20px;
+ outline: none;
+ color: #111016;
+ font-size: 19px;
+ font-family: "Ubuntu", serif;
+ font-weight: 700;
+ font-style: normal;
+}
+
+
+.container input::placeholder{
+  color: #8F8FA1;
+  font-size: 17px;
+  margin: 30px;
+  font-family: "Ubuntu", serif;
+font-weight: 700;
+font-style: normal;
+
+
+}
+.container input:focus::placeholder {
+  color: transparent;
+}
+
+.container input:focus{
+  border:1px solid #827FFE;
+}
+ 
+.container label{
+  text-align: start;
+}
+
+.container button{
+  width: 385px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #827FFE;
+  border: none;
+  font-family: 'ubuntu', sans-serif;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+ 
+}
+
+.container button:hover{
+  background-color: #403866;
+
+}
+.container p{
+  font-family: "Ubuntu", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #403963;
+  font-size: 15px;
+
+ 
+}
+
+.container textarea{
+  width: 360px;
+ height: 60px;
+ background-color: #E6E6E6;
+ border: 2px solid #ccc;
+ border-radius: 5px;
+ padding-left: 20px;
+ outline: none;
+ color: #111016;
+ font-size: 19px;
+ font-family: "Ubuntu", serif;
+ font-weight: 700;
+ font-style: normal;
+}
+
+.container textarea::placeholder{
+  color: #8F8FA1;
+  font-size: 17px;
+  margin: 30px;
+  font-family: "Ubuntu", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.container textarea:focus::placeholder {
+  color: transparent;
+}
+
+.container textarea:focus{
+  border:1px solid #827FFE;
+}
+ .message{
+  font-size: 21px;
+  font-family: "Ubuntu", serif;
+  color: #403963;
+ }
