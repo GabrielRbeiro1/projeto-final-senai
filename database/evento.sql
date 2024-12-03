@@ -67,27 +67,6 @@ CREATE TABLE IF NOT EXISTS `eventos_participantes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
-INSERT INTO `eventos_participantes` (evento_id, participante_id) VALUES
-(1, 1),  -- Evento 1 com Participante 1
-(1, 2),  -- Evento 1 com Participante 2
-(2, 3),  -- Evento 2 com Participante 3
-(2, 4),  -- Evento 2 com Participante 4
-(3, 5),  -- Evento 3 com Participante 5
-(3, 6),  -- Evento 3 com Participante 6
-(4, 7),  -- Evento 4 com Participante 7
-(4, 8),  -- Evento 4 com Participante 8
-(5, 9),  -- Evento 5 com Participante 9
-(5, 10), -- Evento 5 com Participante 10
-(6, 11), -- Evento 6 com Participante 11
-(6, 12), -- Evento 6 com Participante 12
-(7, 13), -- Evento 7 com Participante 13
-(7, 14), -- Evento 7 com Participante 14
-(8, 15), -- Evento 8 com Participante 15
-(8, 16), -- Evento 8 com Participante 16
-(9, 17), -- Evento 9 com Participante 17
-(9, 18), -- Evento 9 com Participante 18
-(10, 19), -- Evento 10 com Participante 19
-(10, 20); -- Evento 10 com Participante 20
 
 -- Copiando dados para a tabela eventos.eventos_participantes: ~0 rows (aproximadamente)
 
