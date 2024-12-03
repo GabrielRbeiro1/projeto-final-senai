@@ -21,3 +21,8 @@ Após baixar as dependências para incializar o projeto basta utilizar o comando
 npm start
 
 ```
+
+#Para fazer login:
+
+Digite o email "gabrielribeiros1nul@gmail.com"
+E a senha: "1234"
