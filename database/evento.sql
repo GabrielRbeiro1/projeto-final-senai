@@ -54,13 +54,14 @@ CREATE TABLE IF NOT EXISTS `organizadores` (
   `id_organizadores` int(11) NOT NULL AUTO_INCREMENT,
   `nome_organizador` varchar(255) NOT NULL DEFAULT '0',
   `email_organizador` varchar(255) NOT NULL,
-  `senha_organizador` varchar(50) NOT NULL,
+  `senha_organizador` varchar(80) NOT NULL,
   PRIMARY KEY (`id_organizadores`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Copiando dados para a tabela eventos.organizadores: ~1 rows (aproximadamente)
 INSERT INTO `organizadores` (`id_organizadores`, `nome_organizador`, `email_organizador`, `senha_organizador`) VALUES
 	(1, 'gabriel', 'gabriel@gmail.com', '1234');
+        (1, 'gabriel', 'gabrielribeiros1nul@gmail.com', '$10$epNK8DeanHVEMR2TXEZKbeE9JUcoTXPBomNH7r0rKjo');
 
 -- Copiando estrutura para tabela eventos.participante
 CREATE TABLE IF NOT EXISTS `participante` (
