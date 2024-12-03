@@ -4,7 +4,7 @@ Este é um sistema de gerenciamento de eventos que permite o cadastro e visualiz
 
 ## Requisitos
 
-Antes de executar o projeto, é importante garantir que o **XAMPP** esteja em execução para permitir a conexão com o banco de dados MySQL.
+Antes de executar o projeto, é importante garantir que o **XAMPP** esteja em execução para permitir a conexão com o banco de dados MySQL. O bando de dados está na pasta "database" como o nome de eventos.sql
 
 ### Dependências
 
