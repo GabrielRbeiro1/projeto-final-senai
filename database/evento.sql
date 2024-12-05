@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `evento` (
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Copiando dados para a tabela eventos.evento: ~3 rows (aproximadamente)
-INSERT INTO eventos (nome_evento, data_evento, local_evento, descricao_evento) VALUES
+INSERT INTO evento (nome_evento, data_evento, local_evento, descricao_evento) VALUES
 ('Festa na Casa das Primas', '2024-12-10 20:00:00', 'Casa das Primas, Zona Norte', 'Uma noite de muita música, dança e diversão com a galera animada. Não perca!'),
 ('Churrasco do Fim de Semana', '2024-12-12 15:00:00', 'Chácara da Família, SP', 'Vamos fazer aquele churras com direito a cerveja gelada, música e boas risadas.'),
 ('Aniversário da Tia Lu', '2024-12-15 17:00:00', 'Casa da Tia Lu, Zona Sul', 'Festa de aniversário com direito a bolo, docinhos e aquela diversão entre a família.'),
@@ -80,9 +80,8 @@ CREATE TABLE IF NOT EXISTS `organizadores` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- Copiando dados para a tabela eventos.organizadores: ~1 rows (aproximadamente)
-INSERT INTO `organizadores` (`id_organizadores`, `nome_organizador`, `email_organizador`, `senha_organizador`) VALUES
-	(1, 'gabriel', 'gabriel@gmail.com', '1234');
-        (1, 'gabriel', 'gabrielribeiros1nul@gmail.com', '$10$epNK8DeanHVEMR2TXEZKbeE9JUcoTXPBomNH7r0rKjo');
+INSERT INTO `organizadores` ( `nome_organizador`, `email_organizador`, `senha_organizador`) VALUES
+        ( 'gabriel', 'gabrielribeiros1nul@gmail.com', '$10$epNK8DeanHVEMR2TXEZKbeE9JUcoTXPBomNH7r0rKjo');
 
 -- Copiando estrutura para tabela eventos.participante
 CREATE TABLE IF NOT EXISTS `participante` (
@@ -94,7 +93,7 @@ CREATE TABLE IF NOT EXISTS `participante` (
   PRIMARY KEY (`participante_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO participantes (nome_participante, cpf_participante, telefone_participante, email_participante) VALUES
+INSERT INTO participante (nome_participante, cpf_participante, telefone_participante, email_participante) VALUES
 ('Ana Silva', 12345678901, 11987654321, 'ana.silva@gmail.com'),
 ('Carlos Pereira', 23456789012, 11976543210, 'carlos.pereira@yahoo.com.br'),
 ('Juliana Costa', 34567890123, 11965432109, 'juliana.costa@hotmail.com'),
